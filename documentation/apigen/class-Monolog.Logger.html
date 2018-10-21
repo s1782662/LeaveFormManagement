@@ -1,0 +1,1962 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class Monolog\Logger | Leave Form Management</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?2785283133"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li><a href="namespace-LeaveFormManagement.html">LeaveFormManagement<span></span></a>
+						<ul>
+				<li><a href="namespace-LeaveFormManagement.Aura.html">Aura<span></span></a>
+						<ul>
+				<li><a href="namespace-LeaveFormManagement.Aura.Di.html">Di<span></span></a>
+						<ul>
+				<li><a href="namespace-LeaveFormManagement.Aura.Di.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-LeaveFormManagement.Aura.Router.html">Router<span></span></a>
+						<ul>
+				<li><a href="namespace-LeaveFormManagement.Aura.Router.Exception.html">Exception</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-LeaveFormManagement.Calendar.html">Calendar</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Captcha.html">Captcha</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Collection.html">Collection</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Event.html">Event</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Form.html">Form<span></span></a>
+						<ul>
+				<li><a href="namespace-LeaveFormManagement.Form.Input.html">Input</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-LeaveFormManagement.Mapper.html">Mapper</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Message.html">Message</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Model.html">Model</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Persistence.html">Persistence</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Registry.html">Registry</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Router.html">Router</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Service.html">Service</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.Session.html">Session</a>
+						</li>
+				<li><a href="namespace-LeaveFormManagement.View.html">View</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="namespace-Monolog.html">Monolog<span></span></a>
+						<ul>
+				<li><a href="namespace-Monolog.Formatter.html">Formatter</a>
+						</li>
+				<li><a href="namespace-Monolog.Handler.html">Handler<span></span></a>
+						<ul>
+				<li><a href="namespace-Monolog.Handler.FingersCrossed.html">FingersCrossed</a>
+						</li>
+				<li><a href="namespace-Monolog.Handler.SyslogUdp.html">SyslogUdp</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Monolog.Processor.html">Processor</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-Psr.html">Psr<span></span></a>
+						<ul>
+				<li><a href="namespace-Psr.Log.html">Log<span></span></a>
+						<ul>
+				<li><a href="namespace-Psr.Log.Test.html">Test</a>
+						</li>
+							</ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Monolog.ErrorHandler.html">ErrorHandler</a></li>
+				<li class="active"><a href="class-Monolog.Logger.html">Logger</a></li>
+				<li><a href="class-Monolog.Registry.html">Registry</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Monolog.html" title="Summary of Monolog"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="leave-form-management-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+			</li>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Logger</h1>
+
+
+	<div class="description">
+	
+<p>Monolog log channel</p>
+
+<p>It contains a stack of Handlers and a stack of Processors, and uses them to
+store records that are added to it.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Monolog\Logger</span></b>			
+			 implements 
+				<a href="class-Psr.Log.LoggerInterface.html"><span>Psr\Log\LoggerInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Monolog.html">Monolog</a><br>
+		
+
+				<b>Author:</b>
+				Jordi Boggiano &lt;<a
+href="mailto:j.boggiano&#64;seld.be">j.boggiano&#64;<!-- -->seld.be</a>&gt;<br>
+		<b>Located at</b> <a href="source-class-Monolog.Logger.html#19-582" title="Go to source code">Monolog/Logger.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Monolog.Logger.html#131-141" title="Go to source code">__construct</a>( <span>string <var>$name</var></span>, <span>array <var>$handlers</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$processors</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name The logging channel</dd>
+					<dt><var>$handlers</var></dt>
+					<dd><code><code><a href="class-Monolog.Handler.HandlerInterface.html">Monolog\Handler\HandlerInterface</a>[]</code></code><br>$handlers Optional stack of handlers, the first one in the array is called
+first, etc.</dd>
+					<dt><var>$processors</var></dt>
+					<dd><code>callable[]</code><br>$processors Optional array of processors</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getName" id="_getName">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getName">#</a>
+		<code><a href="source-class-Monolog.Logger.html#143-149" title="Go to source code">getName</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pushHandler" id="_pushHandler">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pushHandler">#</a>
+		<code><a href="source-class-Monolog.Logger.html#151-159" title="Go to source code">pushHandler</a>( <span><code><a href="class-Monolog.Handler.HandlerInterface.html">Monolog\Handler\HandlerInterface</a></code> <var>$handler</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Pushes a handler on to the stack.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Pushes a handler on to the stack.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$handler</var></dt>
+					<dd><code><code><a href="class-Monolog.Handler.HandlerInterface.html">Monolog\Handler\HandlerInterface</a></code></code><br>$handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="popHandler" id="_popHandler">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Monolog.Handler.HandlerInterface.html">Monolog\Handler\HandlerInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_popHandler">#</a>
+		<code><a href="source-class-Monolog.Logger.html#161-173" title="Go to source code">popHandler</a>( )</code>
+
+		<div class="description short">
+			
+<p>Pops a handler from the stack</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Pops a handler from the stack</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Monolog.Handler.HandlerInterface.html">Monolog\Handler\HandlerInterface</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pushProcessor" id="_pushProcessor">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pushProcessor">#</a>
+		<code><a href="source-class-Monolog.Logger.html#175-186" title="Go to source code">pushProcessor</a>( <span>callable <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a processor on to the stack.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a processor on to the stack.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code>callable</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="popProcessor" id="_popProcessor">
+
+		<td class="attributes"><code>
+			 public 
+			callable
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_popProcessor">#</a>
+		<code><a href="source-class-Monolog.Logger.html#188-200" title="Go to source code">popProcessor</a>( )</code>
+
+		<div class="description short">
+			
+<p>Removes the processor on top of the stack and returns it.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Removes the processor on top of the stack and returns it.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>callable</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addRecord" id="_addRecord">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addRecord">#</a>
+		<code><a href="source-class-Monolog.Logger.html#202-252" title="Go to source code">addRecord</a>( <span>integer <var>$level</var></span>, <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The logging level</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addDebug" id="_addDebug">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addDebug">#</a>
+		<code><a href="source-class-Monolog.Logger.html#254-264" title="Go to source code">addDebug</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the DEBUG level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the DEBUG level.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addInfo" id="_addInfo">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addInfo">#</a>
+		<code><a href="source-class-Monolog.Logger.html#266-276" title="Go to source code">addInfo</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the INFO level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the INFO level.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addNotice" id="_addNotice">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addNotice">#</a>
+		<code><a href="source-class-Monolog.Logger.html#278-288" title="Go to source code">addNotice</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the NOTICE level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the NOTICE level.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addWarning" id="_addWarning">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addWarning">#</a>
+		<code><a href="source-class-Monolog.Logger.html#290-300" title="Go to source code">addWarning</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the WARNING level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the WARNING level.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addError" id="_addError">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addError">#</a>
+		<code><a href="source-class-Monolog.Logger.html#302-312" title="Go to source code">addError</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the ERROR level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the ERROR level.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addCritical" id="_addCritical">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addCritical">#</a>
+		<code><a href="source-class-Monolog.Logger.html#314-324" title="Go to source code">addCritical</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the CRITICAL level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the CRITICAL level.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addAlert" id="_addAlert">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addAlert">#</a>
+		<code><a href="source-class-Monolog.Logger.html#326-336" title="Go to source code">addAlert</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the ALERT level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the ALERT level.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addEmergency" id="_addEmergency">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addEmergency">#</a>
+		<code><a href="source-class-Monolog.Logger.html#338-348" title="Go to source code">addEmergency</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the EMERGENCY level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the EMERGENCY level.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLevels" id="_getLevels">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLevels">#</a>
+		<code><a href="source-class-Monolog.Logger.html#350-358" title="Go to source code">getLevels</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets all supported logging levels.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets all supported logging levels.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Assoc array with human-readable level names =&gt; level codes.<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLevelName" id="_getLevelName">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLevelName">#</a>
+		<code><a href="source-class-Monolog.Logger.html#360-373" title="Go to source code">getLevelName</a>( <span>integer <var>$level</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the name of the logging level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the name of the logging level.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isHandling" id="_isHandling">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isHandling">#</a>
+		<code><a href="source-class-Monolog.Logger.html#375-394" title="Go to source code">isHandling</a>( <span>integer <var>$level</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks whether the Logger has a handler that listens on the given level</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks whether the Logger has a handler that listens on the given level</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="log" id="_log">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_log">#</a>
+		<code><a href="source-class-Monolog.Logger.html#396-413" title="Go to source code">log</a>( <span>mixed <var>$level</var></span>, <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at an arbitrary level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at an arbitrary level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$level</var></dt>
+					<dd><code>mixed</code><br>$level The log level</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Psr.Log.LoggerInterface.html#_log">Psr\Log\LoggerInterface::log()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="debug" id="_debug">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_debug">#</a>
+		<code><a href="source-class-Monolog.Logger.html#415-427" title="Go to source code">debug</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the DEBUG level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the DEBUG level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Psr.Log.LoggerInterface.html#_debug">Psr\Log\LoggerInterface::debug()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="info" id="_info">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_info">#</a>
+		<code><a href="source-class-Monolog.Logger.html#429-441" title="Go to source code">info</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the INFO level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the INFO level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Psr.Log.LoggerInterface.html#_info">Psr\Log\LoggerInterface::info()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="notice" id="_notice">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_notice">#</a>
+		<code><a href="source-class-Monolog.Logger.html#443-455" title="Go to source code">notice</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the INFO level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the INFO level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Psr.Log.LoggerInterface.html#_notice">Psr\Log\LoggerInterface::notice()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="warn" id="_warn">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_warn">#</a>
+		<code><a href="source-class-Monolog.Logger.html#457-469" title="Go to source code">warn</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the WARNING level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the WARNING level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="warning" id="_warning">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_warning">#</a>
+		<code><a href="source-class-Monolog.Logger.html#471-483" title="Go to source code">warning</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the WARNING level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the WARNING level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Psr.Log.LoggerInterface.html#_warning">Psr\Log\LoggerInterface::warning()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="err" id="_err">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_err">#</a>
+		<code><a href="source-class-Monolog.Logger.html#485-497" title="Go to source code">err</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the ERROR level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the ERROR level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code><a href="source-class-Monolog.Logger.html#499-511" title="Go to source code">error</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the ERROR level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the ERROR level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Psr.Log.LoggerInterface.html#_error">Psr\Log\LoggerInterface::error()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="crit" id="_crit">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_crit">#</a>
+		<code><a href="source-class-Monolog.Logger.html#513-525" title="Go to source code">crit</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the CRITICAL level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the CRITICAL level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="critical" id="_critical">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_critical">#</a>
+		<code><a href="source-class-Monolog.Logger.html#527-539" title="Go to source code">critical</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the CRITICAL level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the CRITICAL level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Psr.Log.LoggerInterface.html#_critical">Psr\Log\LoggerInterface::critical()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="alert" id="_alert">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_alert">#</a>
+		<code><a href="source-class-Monolog.Logger.html#541-553" title="Go to source code">alert</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the ALERT level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the ALERT level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Psr.Log.LoggerInterface.html#_alert">Psr\Log\LoggerInterface::alert()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="emerg" id="_emerg">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_emerg">#</a>
+		<code><a href="source-class-Monolog.Logger.html#555-567" title="Go to source code">emerg</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the EMERGENCY level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the EMERGENCY level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="emergency" id="_emergency">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_emergency">#</a>
+		<code><a href="source-class-Monolog.Logger.html#569-581" title="Go to source code">emergency</a>( <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a log record at the EMERGENCY level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a log record at the EMERGENCY level.</p>
+
+<p>This method allows for compatibility with common interfaces.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The log message</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context The log context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>Whether the record has been processed<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Psr.Log.LoggerInterface.html#_emergency">Psr\Log\LoggerInterface::emergency()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="DEBUG" id="DEBUG">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-Monolog.Logger.html#29-32" title="Go to source code"><b>DEBUG</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">100</span></code></td>
+		<td class="description"><div>
+			<a href="#DEBUG" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Detailed debug information</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Detailed debug information</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="INFO" id="INFO">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-Monolog.Logger.html#34-39" title="Go to source code"><b>INFO</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">200</span></code></td>
+		<td class="description"><div>
+			<a href="#INFO" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Interesting events</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Interesting events</p>
+
+<p>Examples: User logs in, SQL logs.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="NOTICE" id="NOTICE">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-Monolog.Logger.html#41-44" title="Go to source code"><b>NOTICE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">250</span></code></td>
+		<td class="description"><div>
+			<a href="#NOTICE" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Uncommon events</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Uncommon events</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="WARNING" id="WARNING">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-Monolog.Logger.html#46-52" title="Go to source code"><b>WARNING</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">300</span></code></td>
+		<td class="description"><div>
+			<a href="#WARNING" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Exceptional occurrences that are not errors</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Exceptional occurrences that are not errors</p>
+
+<p>Examples: Use of deprecated APIs, poor use of an API, undesirable things that
+are not necessarily wrong.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ERROR" id="ERROR">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-Monolog.Logger.html#54-57" title="Go to source code"><b>ERROR</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">400</span></code></td>
+		<td class="description"><div>
+			<a href="#ERROR" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Runtime errors</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Runtime errors</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="CRITICAL" id="CRITICAL">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-Monolog.Logger.html#59-64" title="Go to source code"><b>CRITICAL</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">500</span></code></td>
+		<td class="description"><div>
+			<a href="#CRITICAL" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Critical conditions</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Critical conditions</p>
+
+<p>Example: Application component unavailable, unexpected exception.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ALERT" id="ALERT">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-Monolog.Logger.html#66-72" title="Go to source code"><b>ALERT</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">550</span></code></td>
+		<td class="description"><div>
+			<a href="#ALERT" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Action must be taken immediately</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Action must be taken immediately</p>
+
+<p>Example: Entire website down, database unavailable, etc. This should trigger
+the SMS alerts and wake you up.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="EMERGENCY" id="EMERGENCY">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-Monolog.Logger.html#74-77" title="Go to source code"><b>EMERGENCY</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">600</span></code></td>
+		<td class="description"><div>
+			<a href="#EMERGENCY" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Urgent alert.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Urgent alert.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="API" id="API">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-Monolog.Logger.html#79-87" title="Go to source code"><b>API</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">1</span></code></td>
+		<td class="description"><div>
+			<a href="#API" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Monolog API version</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Monolog API version</p>
+
+<p>This is only bumped when API breaks are done and should follow the major
+version of the library</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="levels" id="$levels">
+		<td class="attributes"><code>
+			protected static 
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Monolog.Logger.html#89-103" title="Go to source code"><var>$levels</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-num">100</span> =&gt; <span class="php-quote">'DEBUG'</span>,
+    <span class="php-num">200</span> =&gt; <span class="php-quote">'INFO'</span>,
+    <span class="php-num">250</span> =&gt; <span class="php-quote">'NOTICE'</span>,
+    <span class="php-num">300</span> =&gt; <span class="php-quote">'WARNING'</span>,
+    <span class="php-num">400</span> =&gt; <span class="php-quote">'ERROR'</span>,
+    <span class="php-num">500</span> =&gt; <span class="php-quote">'CRITICAL'</span>,
+    <span class="php-num">550</span> =&gt; <span class="php-quote">'ALERT'</span>,
+    <span class="php-num">600</span> =&gt; <span class="php-quote">'EMERGENCY'</span>,
+)</code></td>
+		<td class="description"><div>
+			<a href="#$levels" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Logging levels from syslog protocol defined in RFC 5424</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Logging levels from syslog protocol defined in RFC 5424</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="timezone" id="$timezone">
+		<td class="attributes"><code>
+			protected static 
+			DateTimeZone
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Monolog.Logger.html#105-108" title="Go to source code"><var>$timezone</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$timezone" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="name" id="$name">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Monolog.Logger.html#110-113" title="Go to source code"><var>$name</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$name" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="handlers" id="$handlers">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Monolog.Handler.HandlerInterface.html">Monolog\Handler\HandlerInterface</a>[]</code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Monolog.Logger.html#115-120" title="Go to source code"><var>$handlers</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$handlers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The handler stack</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The handler stack</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="processors" id="$processors">
+		<td class="attributes"><code>
+			protected  
+			callable[]
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Monolog.Logger.html#122-129" title="Go to source code"><var>$processors</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$processors" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Processors that will process all log records</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Processors that will process all log records</p>
+
+<p>To process records of a single handler instead, add the processor on that
+specific handler</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Leave Form Management API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
